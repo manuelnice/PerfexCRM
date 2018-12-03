@@ -117,9 +117,9 @@ $lang['currencies']           = 'Moedas';
 $lang['currency']             = 'Moeda';
 $lang['new_currency']         = 'Nova Moeda';
 $lang['currency_lowercase']   = 'moeda';
-$lang['base_currency_set']    = 'Essa é agora sua moeda base.';
-$lang['make_base_currency']   = 'Tornar moeda base';
-$lang['base_currency_string'] = 'Moeda Base';
+$lang['base_currency_set']    = 'Essa é agora sua moeda padrão.';
+$lang['make_base_currency']   = 'Tornar moeda padrão';
+$lang['base_currency_string'] = 'Moeda Padrão';
 
 $lang['currency_list_name']   = 'Nome';
 $lang['currency_list_symbol'] = 'Símbolo';
@@ -257,7 +257,7 @@ $lang['invoice_dt_table_heading_duedate'] = 'Data de Vencimento';
 $lang['invoice_dt_table_heading_amount']  = 'Valor';
 $lang['invoice_dt_table_heading_status']  = 'Estado';
 
-$lang['record_payment_for_invoice']              = 'Pagamento Registrado para';
+$lang['record_payment_for_invoice']              = 'Pagamento Registado para';
 $lang['record_payment_amount_received']          = 'Valor Recebida';
 $lang['record_payment_date']                     = 'Data de Pagamento';
 $lang['record_payment_leave_note']               = 'Deixar uma anotação';
@@ -283,7 +283,7 @@ $lang['payment_edit_date']            = 'Data de Pagamento';
 
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = 'Assunto';
-$lang['kb_article_add_edit_group']   = 'Gropo';
+$lang['kb_article_add_edit_group']   = 'Grupo';
 $lang['kb_string']                   = 'Conhecimento Base';
 $lang['kb_article']                  = 'Artigo';
 $lang['kb_article_lowercase']        = 'artigo';
@@ -293,7 +293,7 @@ $lang['kb_article_description']      = 'Descrição do Artigo';
 
 $lang['kb_no_articles_found']          = 'Nenhum artigo de conhecimento encontrado';
 $lang['kb_dt_article_name']            = 'Nome do Artigo';
-$lang['kb_dt_group_name']              = 'Gropo';
+$lang['kb_dt_group_name']              = 'Grupo';
 $lang['new_group']                     = 'Novo Grupo';
 $lang['kb_group_add_edit_name']        = 'Nome do Grupo';
 $lang['kb_group_add_edit_description'] = 'Descrição curta';
@@ -437,7 +437,7 @@ $lang['settings_cron_send_overdue_reminder_tooltip']         = 'Enviar e-mail co
 $lang['automatically_send_invoice_overdue_reminder_after']   = 'Enviar Automaticamente um lembrete depois de (dias)';
 $lang['automatically_resend_invoice_overdue_reminder_after'] = 'Reenviar automaticamente um lembrete depois de (dias)';
 
-$lang['settings_email_host']      = 'Hospedagem SMTP';
+$lang['settings_email_host']      = 'Mail SMTP';
 $lang['settings_email_port']      = 'Porta SMTP';
 $lang['settings_email']           = 'E-mail';
 $lang['settings_email_password']  = 'Password SMTP';
@@ -3773,7 +3773,7 @@ $lang['next_invoice_date_list'] = 'Next Invoice Date';
 $lang['enter_new_card']    = 'Enter New Card';
 
 # Version 2.2.0
-$lang['save_and_record_payment']                                     = 'Save & Record Payment';
+$lang['save_and_record_payment']                                     = 'Salvar e Registar Pagamento';
 $lang['choose_from_google_drive']                                    = 'Choose from Google Drive';
 $lang['open_in_google']                                              = 'Open In Google';
 $lang['google_picker']                                               = 'Google Picker';
@@ -3803,7 +3803,7 @@ $lang['verification_key_expired']                                    = 'Verifica
 $lang['email_successfully_verified']                                 = 'Your email has been successfully verified.';
 $lang['email_successfully_verified_but_required_admin_confirmation'] = 'Your email has been successfully verified, you will be able to login once administrator confirm your account manually.';
 $lang['email_verification_mail_sent_successully']                    = 'We sent you an email with verification instructions';
-$lang['create_reminder']                                             = 'Create Reminder';
+$lang['create_reminder']                                             = 'Criar lembrete';
 $lang['no_reminders_for_this_task']                                  = 'No reminders for this task';
 $lang['reminder_for']                                                = 'Reminder for %s on %s';
 $lang['no_description_provided']                                     = 'No description provided';
@@ -3811,7 +3811,7 @@ $lang['pay_with_card']                                               = 'Pay With
 $lang['not_customer_uploaded_file']                                  = 'New File(s) Uploaded in Profile';
 
 # Version 2.2.1
-$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
+$lang['customer_files_info_message'] = 'Arquivos dos projetos e tarefas vinculados ao cliente não são mostrados nesta tabela.';
+$lang['ticket_import_reply_only'] = 'Tente importar apenas a resposta do ticket real (sem mensagem citada / encaminhada)';
+$lang['learn_more'] = 'Saber mais';
 $lang['sales_item'] = 'Item';
