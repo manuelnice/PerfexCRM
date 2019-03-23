@@ -117,7 +117,7 @@ $lang['num_word_cents']    = 'Cêntimos';
 $lang['number_word_and']   = 'E';
 
 # For Indian Customers, used with INR currency
-$lang['num_word_hundred'] = 'Hundred';
+$lang['num_word_hundred'] = 'Cem';
 $lang['num_word_lakh'] = 'Lakh';
 $lang['num_word_lakhs'] = 'Lakh';
 
@@ -125,7 +125,7 @@ $lang['num_word_lakhs'] = 'Lakh';
 $lang['num_word'] = 'Com palavras';
 
 $currencies = [
-    'USD' => 'Dollars',
+    'USD' => 'Dólares',
     'EUR' => 'Euros',
 ];
 
